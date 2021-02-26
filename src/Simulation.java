@@ -5,13 +5,23 @@ import java.util.Scanner;
 
 public class Simulation {
 
+   ArrayList<Item> loadItems1() throws Exception {
+       ArrayList loadItems = new ArrayList();
 
-    ArrayList loadItems = new ArrayList();
-
-    File file = new File("u1.txt");
-    Scanner scanner = new Scanner(file);
+       File file = new File("u1.txt");
+       Scanner scanner = new Scanner(file);
 
 
-    public Simulation() throws FileNotFoundException {
+       return null;
+   }
+    ArrayList<Item> loadItems2() throws Exception {
+        ArrayList loadItems = new ArrayList();
+
+        File file1 = new File("u2.txt");
+        Scanner scanner = new Scanner(file1);
+
+
+        return null;
     }
+
 }
