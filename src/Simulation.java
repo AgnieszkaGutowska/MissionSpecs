@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 public class Simulation {
 
-   ArrayList<Item> loadItems1() throws Exception {
-       ArrayList loadItems = new ArrayList();
+   ArrayList<Item> loadU1() throws Exception {
+       ArrayList loadItems1 = new ArrayList();
 
        File file = new File("u1.txt");
        Scanner scanner = new Scanner(file);
@@ -14,8 +14,8 @@ public class Simulation {
 
        return null;
    }
-    ArrayList<Item> loadItems2() throws Exception {
-        ArrayList loadItems = new ArrayList();
+    ArrayList<Item> loadU2() throws Exception {
+        ArrayList loadItems2 = new ArrayList();
 
         File file1 = new File("u2.txt");
         Scanner scanner = new Scanner(file1);
